@@ -13,8 +13,3 @@ class Polygon:
     
     def set_height(self, new_height):
         self.__height = new_height
-
-rect = Polygon()
-rect.set_width(20)
-
-print(rect.get_width())
