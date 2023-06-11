@@ -1,3 +1,4 @@
+# importing the Polygon class from polygon.py file
 from polygon import Polygon
 
 tria = Polygon()
