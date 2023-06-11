@@ -1,4 +1,13 @@
 class Polygon:
+    """
+    The Polgon class is acting as the parent class that rectangle and triangle classes inherit from
+
+    __width and __height --> are private public attributes and can not be accessed by the child classes
+    
+    We created getter and setter for each private public attribute so that we can get to modify them from child classes.
+
+    Here the getter and setter are public method of the polygon class.
+    """
     __width = None
     __height = None
 
