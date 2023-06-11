@@ -9,9 +9,19 @@ class Car:
         self.__speed = speed
         self.__color = color
 
+    # setter method for speed
+    def set_speed(self, new_speed):
+        self.__speed = new_speed
+
+    # getter method for speed
+    def get_speed(self):
+        return self.__speed
+
+    # setter method for color
     def set_color(self, new_color):
         self.__color = new_color
 
+    # getter method for color
     def get_color(self):
         return self.__color
 
@@ -26,3 +36,7 @@ print(tesla.get_color()) # black
 tesla.set_color("red") # changes the color
 
 print(tesla.get_color()) # now prints the new color
+
+
+tesla.set_speed(750)
+print(tesla.get_speed())
